@@ -1,8 +1,10 @@
 const forceDatabaseRefresh = false;
-import { seedAll } from './seeds/index.js';
+// import { seedAll } from './seeds/index.js';
 
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
+
+import 'dotenv/config';
 
 import express from 'express';
 import routes from './routes/index.js';
